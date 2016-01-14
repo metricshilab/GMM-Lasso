@@ -1,0 +1,15 @@
+#### Created by https://www.gitignore.io
+
+
+# History files
+.Rhistory
+
+# RStudio files
+*.Rproj
+.Rproj.user
+.Rproj.user/*
+
+*.Rdata
+*.zip
+*.png
+
