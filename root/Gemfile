@@ -1,4 +1,4 @@
-gem 'wdm', '~> 3.1' if Gem.win_platform?
+gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 
 gem 'github-pages'
 source 'https://rubygems.org'
@@ -6,3 +6,9 @@ gem 'jekyll'
 gem 'jekyll-paginate'
 gem 'kramdown'
 gem 'pygments.rb'
+
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+
+gem 'github-pages', versions['github-pages']
