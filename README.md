@@ -13,8 +13,6 @@ Zhentao Shi (2016): ["Estimation of Sparse Structural Parameters with Many Endog
 
 ## Works for future research
 
-`solution_path_of_gmm_lasso.lyx` contains idea to transform LARS for GMM_Lasso. I am interested in developing it into a note.
-
-* `super_master_inference.R` is for another project for the asymptotic distribution of GMM-Lasso.
-
+* `solution_path_of_gmm_lasso.lyx` contains idea to transform LARS for GMM_Lasso. I am interested in developing it into a note.
+* `super_master_inference.R` is for another project for the asymptotic distribution of GMM-Lasso. `func_inference.R` contains the workhorse files.
 * `cv.lars.2sls` is a modified version to implement cross-validation to choose the tuning parameter.
