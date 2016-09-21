@@ -3,6 +3,7 @@
 
 # History files
 .Rhistory
+.ipynb_checkpoints/*.*
 
 # RStudio files
 *.Rproj
